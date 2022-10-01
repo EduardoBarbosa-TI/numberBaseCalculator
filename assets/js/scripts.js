@@ -60,6 +60,7 @@ $(document).ready(() => {
             e.preventDefault()
         }
     })
+    
     $("#btnCopyBinary").click(() => {
         var copyText = document.getElementById("numberBinary");
         copyText.select();
